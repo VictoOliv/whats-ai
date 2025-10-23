@@ -117,7 +117,7 @@ cp ".env copy" .env
 # OpenAI
 OPENAI_API_KEY=sua_chave_api_aqui
 OPENAI_MODEL_NAME=gpt-5
-OPENAI_MODEL_TEMPERATURE=0.35
+OPENAI_MODEL_TEMPERATURE=0.7
 
 # Evolution API
 EVOLUTION_API_URL=http://localhost:8080

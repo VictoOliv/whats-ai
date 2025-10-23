@@ -39,6 +39,11 @@ services:
 volumes:
   evolution_instances:
   postgres_data:
+
+
+  postgres_pendencias_data:
+
+  
   redis:
   vectorstore_data:
   rag_files:

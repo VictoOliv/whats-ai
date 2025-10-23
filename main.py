@@ -46,7 +46,7 @@ async def webhook(request: Request):
         if from_me:
             return {'status': 'ok'}
 
-        if chat_id and message and not '@g.us' in chat_id:
+        if chat_id and message and not '@g.us' in chat_id:            
             await buffer_message(
                 chat_id=chat_id,
                 message=message,

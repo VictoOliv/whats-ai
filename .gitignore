@@ -86,5 +86,11 @@ dmypy.json
 # Pyre
 .pyre/
 
+# Google Calendar (NUNCA COMMITAR!)
+credentials.json
+token.pickle
+
 # Project specific
 rag_files/processed/
+test_*.py
+*_auto.py

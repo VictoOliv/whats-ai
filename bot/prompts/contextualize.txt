@@ -85,19 +85,23 @@ A segunda ou terceira linha geralmente **complementa** ou **esclarece** a primei
 - "vocês" → "esta escola"
 - "como funciona" → processo/metodologia específica da escola
 
-### 2. ADICIONE CONTEXTO DE CAPTAÇÃO
+### 2. ADICIONE CONTEXTO DE CAPTAÇÃO E INFORMAÇÕES DO LEAD
 - Idade da criança quando mencionada
 - Nível de ensino pretendido
 - Situação atual (escola atual, mudança, primeira matrícula)
 - Momento no funil de captação (pesquisando, comparando, decidindo)
+- **Nome do responsável** (se foi informado no histórico)
+- **Quantidade de filhos** e suas idades (se foi informado)
+- **Contexto familiar específico** (se foi mencionado)
 
 ### 3. PRESERVE INTENÇÕES E INTERESSES
 - Curiosidade sobre metodologia e diferenciais pedagógicos
 - Interesse em infraestrutura e espaços únicos
 - Questões sobre resultados, aprovações e preparação
-- Desejo de conhecer a escola pessoalmente
+- Desejo de conhecer a escola pessoalmente ou agendar visita
 - Preocupações familiares específicas (adaptação, idade, necessidades)
 - Contexto de comparação com outras escolas
+- **Interesse em agendar visita** (horários, disponibilidade, processo)
 
 ## ESTRUTURA DE REESCRITA
 
@@ -159,6 +163,34 @@ DEPOIS: "Qual a qualificação e experiência da equipe pedagógica e professore
 ANTES: "Aceita criança de 4 anos?"
 DEPOIS: "Quais níveis de ensino e faixas etárias são atendidas nesta escola para educação infantil?"
 
+**EXEMPLO 9 - Com informações do lead capturadas (NOME + IDADE):**
+HISTÓRICO: Nome = Maria, Filho = 7 anos (2º ano)
+ANTES: "E sobre as atividades extracurriculares?"
+DEPOIS: "Quais atividades extracurriculares esta escola oferece para alunos do 2º ano do ensino fundamental de família interessada em matrícula?"
+
+**EXEMPLO 10 - Com múltiplos filhos:**
+HISTÓRICO: Mãe com 2 filhos (5 anos e 10 anos)
+ANTES: "Tem transporte?"
+DEPOIS: "Como funciona o transporte escolar desta escola para alunos da educação infantil e do ensino fundamental I de família interessada com múltiplos filhos?"
+
+**EXEMPLO 11 - Com contexto de interesse específico:**
+HISTÓRICO: Nome = João, Filho = 15 anos (1º ano EM), interesse em preparação para vestibular
+ANTES: "Como funciona o material?"
+DEPOIS: "Como é o material didático e sistema de preparação para vestibular no ensino médio desta escola para aluno do 1º ano interessado em aprovação em universidades?"
+
+**EXEMPLO 12 - Agendamento de visita:**
+ANTES: "Quero agendar uma visita"
+DEPOIS: "Como agendar uma visita para família interessada conhecer pessoalmente as instalações e metodologia desta escola e quais horários estão disponíveis?"
+
+**EXEMPLO 13 - Agendamento com contexto de lead:**
+HISTÓRICO: Nome = Ana, Filha = 8 anos (3º ano)
+ANTES: "Posso visitar na quinta?"
+DEPOIS: "Como agendar visita para quinta-feira para família interessada em matrícula do 3º ano conhecer as instalações e conversar com coordenação pedagógica desta escola?"
+
+**EXEMPLO 14 - Horários disponíveis:**
+ANTES: "Que horário vocês atendem?"
+DEPOIS: "Quais horários de funcionamento e disponibilidade para visitas e atendimento a famílias interessadas nesta escola?"
+
 
 ═══════════════════════════════════════════════════════════════
  BLOCO 4: OTIMIZAÇÃO E FORMATO
@@ -171,6 +203,7 @@ A pergunta reescrita deve conter palavras-chave que ativem conteúdo promocional
 - Infraestrutura especial
 - Resultados e aprovações
 - Processo de conhecer a escola
+- **Agendamento de visitas e horários disponíveis**
 - Metodologias exclusivas
 - Preparação para vestibular/ENEM
 - Valores cristãos (quando relevante)
@@ -179,6 +212,8 @@ A pergunta reescrita deve conter palavras-chave que ativem conteúdo promocional
 - Equipe pedagógica e coordenação
 - Níveis de ensino e faixas etárias
 - Qualificação dos professores
+- **Processo e requisitos para visitar as instalações**
+- Horários de funcionamento e atendimento
 
 ## FORMATO DE RESPOSTA
 
