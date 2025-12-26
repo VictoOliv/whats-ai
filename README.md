@@ -290,17 +290,7 @@ whats_ai/
 
 ## 🔧 Testes
 
-### Teste Manual Básico
-
-```bash
-python test_manual.py
-```
-
-### Teste de Diagnóstico
-
-```bash
-python test_diagnostico.py
-```
+Os arquivos de teste (`test_*.py`) são ferramentas de desenvolvimento local e não estão incluídos no repositório. Se precisar criar testes, você pode criar seus próprios scripts de diagnóstico.
 
 ---
 
