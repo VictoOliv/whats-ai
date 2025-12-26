@@ -124,17 +124,17 @@ OPENAI_MODEL_TEMPERATURE=... #Temperatura do modelo
 
 #Evolution API
 EVOLUTION_API_URL=http://evolution-api:8080
-EVOLUTION_INSTANCE_NAME=...
-AUTHENTICATION_API_KEY=...
+EVOLUTION_INSTANCE_NAME=... #Nome da instancia na Evolution API
+AUTHENTICATION_API_KEY=...  #Chave de autenticação da Evolution API
 MANAGER_AUTHENTICATION_DISABLED=true
-MANAGER_API_KEY=...
+MANAGER_API_KEY=...  #API KEY
 CONFIG_SESSION_PHONE_VERSION=2.3000.1030226392
 
 #Postgres
 DATABASE_ENABLED=true
 DATABASE_PROVIDER=postgresql
-DATABASE_CONNECTION_URI=...
-DATABASE_CONNECTION_CLIENT_NAME=...
+DATABASE_CONNECTION_URI=postgresql://postgres:postgres@postgres:5432/evolution?
+DATABASE_CONNECTION_CLIENT_NAME=... #Nome do cliente Postgres
 DATABASE_SAVE_DATA_INSTANCE=true
 DATABASE_SAVE_DATA_NEW_MESSAGE=true
 DATABASE_SAVE_MESSAGE_UPDATE=true
@@ -145,19 +145,19 @@ DATABASE_SAVE_DATA_HISTORIC=true
 
 #Redis
 CACHE_REDIS_ENABLED=false
-CACHE_REDIS_URI=...
-CACHE_REDIS_PREFIX_KEY=...
+CACHE_REDIS_URI=redis://redis:6379/6
+CACHE_REDIS_PREFIX_KEY=evolution
 CACHE_REDIS_SAVE_INSTANCES=false
 CACHE_LOCAL_ENABLED=false
 
 #RAG
-VECTOR_STORE_PATH=...
-RAG_FILES_DIR=...
+VECTOR_STORE_PATH=... #Nome do seu arquivo de vectorStore
+RAG_FILES_DIR=... #Nome do seu arquivo de RAG
 
 #Debounce de mensagens
-BUFFER_KEY_SUFIX=...
-DEBOUNCE_SECONDS=10
-BUFFER_TTL=300
+BUFFER_KEY_SUFIX=_msg_buffer  # Sufixo usado para criar chaves únicas no Redis por chat (ex: 5511999999999_msg_buffer)
+DEBOUNCE_SECONDS=10  # Tempo em segundos para agrupar mensagens antes de processar
+BUFFER_TTL=300  # Tempo de vida das mensagens no buffer (em segundos)
 
 #Google calendário
 ENABLE_GOOGLE_CALENDAR=true
