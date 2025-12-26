@@ -114,21 +114,52 @@ cp ".env copy" .env
 **Variáveis Essenciais:**
 
 ```env
-# OpenAI
-OPENAI_API_KEY=sua_chave_api_aqui
-OPENAI_MODEL_NAME=gpt-5
-OPENAI_MODEL_TEMPERATURE=0.7
+#Arquivo de prompts na raiz do projeto
+PROMPTS_DIR=bot/prompts/
 
-# Evolution API
-EVOLUTION_API_URL=http://localhost:8080
-EVOLUTION_INSTANCE_NAME=PyWhats
-AUTHENTICATION_API_KEY=PyWhats
+#Gpt
+OPENAI_API_KEY=...  #Sua chave de api
+OPENAI_MODEL_NAME=... #Modelo gpt
+OPENAI_MODEL_TEMPERATURE=... #Temperatura do modelo
 
-# Caminhos
-VECTOR_STORE_PATH=vectorstore
-RAG_FILES_DIR=rag_files
+#Evolution API
+EVOLUTION_API_URL=http://evolution-api:8080
+EVOLUTION_INSTANCE_NAME=...
+AUTHENTICATION_API_KEY=...
+MANAGER_AUTHENTICATION_DISABLED=true
+MANAGER_API_KEY=...
+CONFIG_SESSION_PHONE_VERSION=2.3000.1030226392
 
-# Google Calendar (Opcional)
+#Postgres
+DATABASE_ENABLED=true
+DATABASE_PROVIDER=postgresql
+DATABASE_CONNECTION_URI=...
+DATABASE_CONNECTION_CLIENT_NAME=...
+DATABASE_SAVE_DATA_INSTANCE=true
+DATABASE_SAVE_DATA_NEW_MESSAGE=true
+DATABASE_SAVE_MESSAGE_UPDATE=true
+DATABASE_SAVE_DATA_CONTACTS=true
+DATABASE_SAVE_DATA_CHATS=true
+DATABASE_SAVE_DATA_LABELS=true
+DATABASE_SAVE_DATA_HISTORIC=true
+
+#Redis
+CACHE_REDIS_ENABLED=false
+CACHE_REDIS_URI=...
+CACHE_REDIS_PREFIX_KEY=...
+CACHE_REDIS_SAVE_INSTANCES=false
+CACHE_LOCAL_ENABLED=false
+
+#RAG
+VECTOR_STORE_PATH=...
+RAG_FILES_DIR=...
+
+#Debounce de mensagens
+BUFFER_KEY_SUFIX=...
+DEBOUNCE_SECONDS=10
+BUFFER_TTL=300
+
+#Google calendário
 ENABLE_GOOGLE_CALENDAR=true
 ```
 
@@ -263,12 +294,6 @@ whats_ai/
 
 ```bash
 python test_manual.py
-```
-
-### Teste de Integração Calendar
-
-```bash
-python test_calendar_integration.py
 ```
 
 ### Teste de Diagnóstico
